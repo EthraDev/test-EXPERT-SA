@@ -67,3 +67,19 @@
     opacity: 1;
     color: black;
 }
+
+.ul-color:hover {
+    color: #F16F51;
+}
+
+.button-orange:hover {
+    background-color: #F16F51;
+    color: white;
+    border-color: #F16F51;
+}
+
+.button-black:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
