@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    background-color: #000000;
+    color: white;
+    font-family: "dunbar-text", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.hr {
+    background-color: #F16F51;
+    height: 1.5px;
+    border: none;
+}
+
