@@ -529,6 +529,10 @@ video {
   position: relative;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .left-0 {
   left: 0px;
 }
@@ -545,6 +549,14 @@ video {
   top: 5rem;
 }
 
+.z-10 {
+  z-index: 10;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .mb-20 {
   margin-bottom: 5rem;
 }
@@ -553,8 +565,24 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .mt-48 {
   margin-top: 12rem;
+}
+
+.mt-52 {
+  margin-top: 13rem;
+}
+
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
+.mb-28 {
+  margin-bottom: 7rem;
 }
 
 .flex {
@@ -593,6 +621,10 @@ video {
 
 .rounded-full {
   border-radius: 9999px;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-2 {
@@ -643,6 +675,16 @@ video {
   padding-right: 5rem;
 }
 
+.px-24 {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.px-44 {
+  padding-left: 11rem;
+  padding-right: 11rem;
+}
+
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -651,6 +693,11 @@ video {
 .px-96 {
   padding-left: 24rem;
   padding-right: 24rem;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .py-16 {
@@ -676,6 +723,10 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
 }
 
 .text-center {
@@ -712,7 +763,6 @@ video {
 
 .title {
   font-family: "lust-sans", sans-serif;
-  font-weight: 700;
   font-style: normal;
   font-size: 43px;
 }
@@ -731,3 +781,24 @@ video {
   color: black;
 }
 
+.bg-color {
+  background-color: #F8CDC5;
+  color: black;
+}
+
+.div-hover:hover img {
+  top: 13rem;
+}
+
+.div-hover:hover p {
+  visibility: visible;
+}
+
+.div-hover:hover h3 {
+  color: #F16F51;
+}
+
+.bg-color-devis-section {
+  background-color: rgba(241, 111, 81, 0.4);
+  border: #F16F51 solid 3px;
+}

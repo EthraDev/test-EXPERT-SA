@@ -18,7 +18,6 @@
 
 .title {
     font-family: "lust-sans", sans-serif;
-    font-weight: 700;
     font-style: normal;
     font-size: 43px;
 }
@@ -37,3 +36,24 @@
     color: black;
 }
 
+.bg-color {
+    background-color: #F8CDC5;
+    color: black;
+}
+
+.div-hover:hover img {
+    top: 13rem;
+}
+
+.div-hover:hover p {
+    visibility: visible;
+}
+
+.div-hover:hover h3 {
+    color: #F16F51;
+}
+
+.bg-color-devis-section {
+    background-color: rgba(241, 111, 81, 0.4);
+    border: #F16F51 solid 3px;
+}
