@@ -57,3 +57,13 @@
     background-color: rgba(241, 111, 81, 0.4);
     border: #F16F51 solid 3px;
 }
+
+.bg-input {
+    background-color: #F8CDC5;
+    border: #F16F51 solid 3px;
+}
+
+.bg-input::placeholder {
+    opacity: 1;
+    color: black;
+}
