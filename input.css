@@ -16,3 +16,13 @@
     border: none;
 }
 
+.title {
+    font-family: "lust-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 43px;
+}
+
+.title-color {
+    color: #F16F51;
+}
