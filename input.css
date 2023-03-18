@@ -20,6 +20,8 @@
     font-family: "lust-sans", sans-serif;
     font-style: normal;
     font-size: 43px;
+    line-height: 4rem;
+        
 }
 
 .title-color {
@@ -42,7 +44,7 @@
 }
 
 .div-hover:hover img {
-    top: 13rem;
+    top: 14rem;
 }
 
 .div-hover:hover p {
@@ -82,4 +84,64 @@
     background-color: black;
     color: white;
     border-color: black;
+}
+
+@media screen and (max-width: 460px) {
+    .title {
+        font-size: 28px;
+        line-height: 3rem;
+    }
+
+    .slogan {
+        font-size: 20px;
+        line-height: 2rem;
+    }
+
+    .div-hover:hover img {
+        top: 8rem;
+    }
+}
+
+@media screen and (min-width: 461px) and (max-width: 639px) {
+    .div-hover:hover img {
+        top: 8rem;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 767px) {
+    .div-hover:hover img {
+        top: 8rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .title {
+        font-size: 35px;
+        line-height: 2.5rem;
+    }
+
+    .slogan {
+        font-size: 30px;
+        line-height: 2.5rem;
+    }
+
+    .div-hover:hover img {
+        top: 9rem;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .div-hover:hover img {
+        top: 12rem;
+    }
+
+    .title {
+        font-size: 40px;
+        line-height: 3rem;
+    }
+
+    .slogan {
+        font-size: 35px;
+        line-height: 3rem;
+    }
 }
