@@ -581,14 +581,6 @@ video {
   margin-top: 1rem;
 }
 
-.block {
-  display: block;
-}
-
-.inline {
-  display: inline;
-}
-
 .flex {
   display: flex;
 }
@@ -1385,5 +1377,27 @@ video {
   .xl\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .\32xl\:px-28 {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
+  .\32xl\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .\32xl\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .\32xl\:px-36 {
+    padding-left: 9rem;
+    padding-right: 9rem;
   }
 }
